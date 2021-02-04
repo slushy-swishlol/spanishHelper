@@ -1,0 +1,47 @@
+html, body {
+    width: fit-content;
+    background-color: #2173b6;
+}
+
+.accent {
+    /*Dimensions*/
+    transition-duration: 0.4s;
+    border-radius: 4px;
+
+    /*Colors*/
+    background-color: rgb(74, 168, 255);
+    color: white;
+
+    /*Content*/
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /*Misc*/
+    cursor: pointer;
+}
+
+.accent:hover {
+    background-color: rgb(44, 138, 224);
+}
+
+.button:active {
+    background-color: cyan;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 35px);
+    grid-template-rows: repeat(2, 35px);
+    grid-gap: 10px;
+
+    justify-content: space-around;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(198, 229, 240);
+    text-align: center;
+    margin: 8px;
+    text-shadow: 4px 4px 5px rgb(63, 63, 63);
+}
